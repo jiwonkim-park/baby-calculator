@@ -1,4 +1,4 @@
-# baby-calculator
+# Baby Calculator
 This project implements a simple calculator using stack in Java.
 
 ## What is Baby Calculator?
