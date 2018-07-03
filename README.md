@@ -1,22 +1,23 @@
 # baby-calculator
 This project implements a simple calculator using stack in Java.
 
-What is Baby Calculator?
-**Stack** is one of the widely used data structures. It has two principle operations: push and pop. With these operations, the order of element come off a stack is also called LIFO (last in, first out).
-- **Push**: Adds an element to the collection
-- **Pop**: Removes the most recently added element that was not yet moved
-
-Stack is useful when we calculate the sequence of numbers with parenthesis. For example, if we want to calculate (1 + 2 + 3) + (4 + 5), we need to evaluate (1 + 2 + 3) first then (4 + 5). Although the order of adding numbers does not affect the result, we need follow the order of operations anyway.
+## What is Baby Calculator?
 This project will make calculator called “BabyCalculator”, which only handles parenthesis and digits (0, 1, ..., 9) with only addition function using stack. Here are some examples.
 - For input ‘123’, it means ‘1+2+3’.
 - For input ‘(12(34)5)’, it means ‘(1+2+(3+4)+5)’.
 - For input ‘12(2(02)2)’, it means ‘1+2+(2+(0+2)+2)
 
-Inputs consists of parentheses and digits, and you can assume inputs are always syntactically correct. BabyCalculator must follow LIFO order on adding numbers. BabyCalculator also holds a current value as previous result. It means the calculator add to the current value when a new polynomial is given. (Please check sample input and output at the end of this document.).
+## Using Stack
+**Stack** is one of the widely used data structures. It has two principle operations: push and pop. With these operations, the order of element come off a stack is also called LIFO (last in, first out).
+- **Push**: Adds an element to the collection
+- **Pop**: Removes the most recently added element that was not yet moved
 
-This project has three java files, *LinkedList.java*, *LinkedStack.java*, *BabyCalculator.java*, and *Main.java*.
-Fill in the ‘LinkedList.java’, ‘LinkedStack.java’, ‘BabyCalculator.java’ and ‘Main.java’ in ‘PA01’ java project. First, implement 
+Stack is useful when we calculate the sequence of numbers with parenthesis. For example, if we want to calculate (1 + 2 + 3) + (4 + 5), we need to evaluate (1 + 2 + 3) first then (4 + 5). Although the order of adding numbers does not affect the result, we need follow the order of operations anyway.
 
+## Inputs and Outputs
+Inputs consists of parentheses and digits, and you can assume inputs are always syntactically correct. BabyCalculator must follow LIFO order on adding numbers. BabyCalculator also holds a current value as previous result. It means the calculator add to the current value when a new polynomial is given.
+
+This project has three java files, *LinkedList.java*, *LinkedStack.java*, *BabyCalculator.java*, and *Main.java*. 
 The program accept inputs and print listed outputs. For example, when the example inputs are:
 ```
 SET 5 // this sets the value of the calculator to 5
